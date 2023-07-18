@@ -4,51 +4,38 @@ import logo from "../assets/logo.png";
 
 const Navbar = () => {
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300"
-      // style={{
-      //   backgroundColor: "#5271ff",
-      //   position: "fixed",
-      //   width: "100%",
-      //   height: "80px",
-      //   display: "flex",
-      //   justifyContent: "space-between",
-      //   alignItems: "center",
-      //   paddingLeft: "16px",
-      //   paddingRight: "16px",
-      // }}
-    >
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
         <img src={logo} alt="Logo" style={{ width: "80px" }} />
       </div>
 
       {/*Menu*/}
-      <ul style={{ display:'none', minWidth: "md:flex" }} >
-
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Work</li>
-        <li>Contact</li>
-      </ul>
-
-      {/*Hamburger*/}
-      <div style={{ display:'hidden' }} >
-        <FaBars />
-      </div>
-
-      {/*Mobile Menu*/}
-      <div style={{ display:"none" }} >
-        <ul>
+        <ul className="hidden md:flex">
           <li>Home</li>
           <li>About</li>
           <li>Skills</li>
           <li>Work</li>
           <li>Contact</li>
         </ul>
+
+      {/*Hamburger*/}
+      <div className="md:hidden z-10">
+        <FaBars />
+      </div>
+
+      {/*Mobile Menu*/}
+      <div className="hidden absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center">
+        <ul>
+          <li className="py-6 text-4xl">Home</li>
+          <li className="py-6 text-4xl">About</li>
+          <li className="py-6 text-4xl">Skills</li>
+          <li className="py-6 text-4xl">Work</li>
+          <li className="py-6 text-4xl">Contact</li>
+        </ul>
       </div>
 
       {/*Social Icons*/}
-      <div style={{ display:"none" }} ></div>
+      <div className="hidden"></div>
     </div>
   );
 };
