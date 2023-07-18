@@ -4,25 +4,25 @@ import logo from "../assets/logo.png";
 
 const Navbar = () => {
   return (
-    <div
-      style={{
-        backgroundColor: "#5271ff",
-        position: "fixed",
-        width: "100%",
-        height: "80px",
-        display: "flex",
-        justifyContent: "space-between",
-        alignItems: "center",
-        paddingLeft: "16px",
-        paddingRight: "16px",
-      }}
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300"
+      // style={{
+      //   backgroundColor: "#5271ff",
+      //   position: "fixed",
+      //   width: "100%",
+      //   height: "80px",
+      //   display: "flex",
+      //   justifyContent: "space-between",
+      //   alignItems: "center",
+      //   paddingLeft: "16px",
+      //   paddingRight: "16px",
+      // }}
     >
       <div>
         <img src={logo} alt="Logo" style={{ width: "80px" }} />
       </div>
 
       {/*Menu*/}
-      <ul className="hidden md:flex" /* style={{ display:'none', minWidth: "md:flex" }} */>
+      <ul style={{ display:'none', minWidth: "md:flex" }} >
 
         <li>Home</li>
         <li>About</li>
@@ -32,7 +32,7 @@ const Navbar = () => {
       </ul>
 
       {/*Hamburger*/}
-      <div className="hidden">
+      <div style={{ display:'hidden' }} >
         <FaBars />
       </div>
 
