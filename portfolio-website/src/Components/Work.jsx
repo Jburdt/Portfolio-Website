@@ -21,7 +21,7 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effects */}
-            <div className="opacity-0 bg-indigo-500 group-hover:opacity-100 px-2 ">
+            <div className="rounded-lg opacity-0 bg-indigo-500 group-hover:opacity-100 px-2 ">
               <span className="text-2xl font-bold text-white tracking-wider">
                 React Js & Ruby on rails
               </span>
@@ -44,7 +44,7 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effects */}
-            <div className="opacity-0 bg-indigo-500 group-hover:opacity-100 px-2">
+            <div className="rounded-lg opacity-0 bg-indigo-500 group-hover:opacity-100 px-2">
               <span className="text-2xl font-bold text-white tracking-wider">
                 React Js & Ruby on rails
               </span>
@@ -68,7 +68,7 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effects */}
-            <div className="opacity-0 bg-indigo-500 group-hover:opacity-100 px-2">
+            <div className="rounded-lg opacity-0 bg-indigo-500 group-hover:opacity-100 px-2">
               <span className="text-2xl font-bold text-white tracking-wider">
                 React Js Application
               </span>

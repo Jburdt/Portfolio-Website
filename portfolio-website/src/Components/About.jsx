@@ -18,10 +18,7 @@ const About = () => {
           </div>
           <div>
             <p>
-              I am passonite about Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Enim iure reiciendis nihil, excepturi eos ipsam
-              odit assumenda ullam inventore iste facere repellendus laudantium
-              eum dignissimos provident quo vitae a quae?
+            Passionate, innovative, and results-driven full-stack application developer with a strong foundation in building robust and user-friendly web applications. Proficient in a wide range of technologies including React, JavaScript, Ruby on Rails, Redux, SQL databases, and RESTful API architecture. I thrive in collaborative, cross-functional teams within an agile environment and demonstrate the ability to develop and integrate effective solutions for clients.
             </p>
           </div>
         </div>

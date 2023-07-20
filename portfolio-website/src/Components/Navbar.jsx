@@ -89,7 +89,7 @@ const Navbar = () => {
       {/*Social Icons*/}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500">
+          <li className="rounded-tr-lg w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/josh-burd"
@@ -113,7 +113,7 @@ const Navbar = () => {
               Email <HiOutlineMail size={30} />
             </a>
           </li> */}
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
+          <li className="rounded-br-lg w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://docs.google.com/document/d/1Z1zrtC03dAHY2PWlZFRWfLXF0DEgoyx9b8aDahAo9V0/edit?usp=drive_link"
