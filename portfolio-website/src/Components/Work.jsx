@@ -1,6 +1,6 @@
 import React from "react";
-import golfapp from "../assets/golfapp.png"
-import MovieReview from "../assets/MovieReview.png"
+import golfapp from "../assets/golfapp.png";
+import MovieReview from "../assets/MovieReview.png";
 
 const Work = () => {
   return (
@@ -14,7 +14,6 @@ const Work = () => {
           <p className="py-6">Check out some of my recent work</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-          
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${MovieReview})` }}

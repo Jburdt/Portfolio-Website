@@ -1,8 +1,8 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
-@import "tailwindcss/utilities"; 
+@import "tailwindcss/utilities";
 
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Overpass:ital,wght@1,100&family=Titillium+Web:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@1,900&family=Overpass:ital,wght@1,100&family=Titillium+Web:wght@300;400;700&display=swap");
 
 @layer base {
   body {
@@ -24,7 +24,7 @@
 .content-div:hover {
   background-image: linear-gradient(
     to right,
-    rgba(112 ,157, 255, 0.8),
+    rgba(112, 157, 255, 0.8),
     hsla(242, 74% 61%, 0.8)
-  )!important;
+  ) !important;
 }
