@@ -1,10 +1,11 @@
 import React from "react";
 import golfapp from "../assets/golfapp.png";
 import MovieReview from "../assets/MovieReview.png";
+import hero from "../assets/hero.png";
 
 const Work = () => {
   return (
-    <div name="work" className="w-full md:h-screen text-gray0300 bg-[#0a192f]">
+    <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -20,9 +21,9 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 bg-indigo-500 group-hover:opacity-100 px-2 ">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React Js Application
+                React Js & Ruby on rails
               </span>
               <div className="pt-8 text-center">
                 <a href="https://youtu.be/ceq4WzW_jyo">
@@ -43,9 +44,9 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 bg-indigo-500 group-hover:opacity-100 px-2">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React Js Application
+                React Js & Ruby on rails
               </span>
               <div className="pt-8 text-center">
                 <a href="https://youtu.be/n30qPNZy1qc">
@@ -63,91 +64,21 @@ const Work = () => {
           </div>
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${null})` }}
+            style={{ backgroundImage: `url(${hero})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 bg-indigo-500 group-hover:opacity-100 px-2">
               <span className="text-2xl font-bold text-white tracking-wider">
                 React Js Application
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://youtu.be/OI0iHMWvNmo">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo video
                   </button>
                 </a>
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url(${null})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                React Js Application
-              </span>
-              <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo video
-                  </button>
-                </a>
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url(${null})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                React Js Application
-              </span>
-              <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo video
-                  </button>
-                </a>
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url(${null})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                React Js Application
-              </span>
-              <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo video
-                  </button>
-                </a>
-                <a href="/">
+                <a href="https://github.com/Jburdt/Hero-App-Phase-2-Project">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>

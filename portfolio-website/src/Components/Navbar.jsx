@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
+// import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import logo from "../assets/logo.png";
 import { Link } from "react-scroll";
@@ -58,11 +58,31 @@ const Navbar = () => {
         }
       >
         <ul>
-          <li className="py-6 text-4xl">Home</li>
-          <li className="py-6 text-4xl">About</li>
-          <li className="py-6 text-4xl">Skills</li>
-          <li className="py-6 text-4xl">Work</li>
-          <li className="py-6 text-4xl">Contact</li>
+          <li className="py-6 text-4xl">
+            <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+              Home
+            </Link>
+          </li>
+          <li className="py-6 text-4xl">
+            <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+              About
+            </Link>
+          </li>
+          <li className="py-6 text-4xl">
+            <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+              Skills
+            </Link>
+          </li>
+          <li className="py-6 text-4xl">
+            <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+              Work
+            </Link>
+          </li>
+          <li className="py-6 text-4xl">
+            <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+              Contact
+            </Link>
+          </li>
         </ul>
       </div>
 
@@ -72,7 +92,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://www.linkedin.com/in/josh-burd"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -80,23 +100,23 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://github.com/Jburdt"
             >
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
+          {/* <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="/contact"
             >
-              Linkedin <HiOutlineMail size={30} />
+              Email <HiOutlineMail size={30} />
             </a>
-          </li>
+          </li> */}
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://docs.google.com/document/d/1Z1zrtC03dAHY2PWlZFRWfLXF0DEgoyx9b8aDahAo9V0/edit?usp=drive_link"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
