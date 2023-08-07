@@ -1,9 +1,9 @@
-import React from "react";
 import golfapp from "../assets/golfapp.png";
 import MovieReview from "../assets/MovieReview.png";
 import hero from "../assets/hero.png";
 
 const Work = () => {
+
   return (
     <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
       {/* Container */}
