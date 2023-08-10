@@ -1,6 +1,7 @@
 import golfapp from "../assets/golfapp.png";
 import MovieReview from "../assets/MovieReview.png";
 import hero from "../assets/hero.png";
+import calc from "../assets/calc.png"
 
 const Work = () => {
   return (
@@ -85,6 +86,56 @@ const Work = () => {
               </div>
             </div>
           </div>
+          {/* Grid Item / start of new work*/}
+          <div
+            style={{ backgroundImage: `url(${calc})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover effects */}
+            <div className="rounded-lg opacity-0 bg-indigo-500 group-hover:opacity-100 px-2">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Javascript Application
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://medium.com/@jburdt/basic-calculator-app-fbc966ce6c2a">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Blog
+                  </button>
+                </a>
+                <a href="https://github.com/Jburdt/calculator-app.git">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/*end of work*/}
+          {/* Grid Item / start of new work*/}
+          {/* <div
+            style={{ backgroundImage: `url(${calc})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          > */}
+            {/* Hover effects */}
+            {/* <div className="rounded-lg opacity-0 bg-indigo-500 group-hover:opacity-100 px-2">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Javascript Application
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://medium.com/@jburdt/basic-calculator-app-fbc966ce6c2a">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Blog
+                  </button>
+                </a>
+                <a href="https://github.com/Jburdt/calculator-app.git">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div> */}
+          {/*end of work*/}
         </div>
       </div>
     </div>
