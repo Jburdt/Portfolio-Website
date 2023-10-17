@@ -3,6 +3,7 @@ import MovieReview from "../assets/MovieReview.png";
 import hero from "../assets/hero.png";
 import calc from "../assets/calc.png"
 import JokeApp from "../assets/JokeApp.png"
+import Vue from "../assets/Vue.png"
 
 const Work = () => {
   return (
@@ -131,6 +132,31 @@ const Work = () => {
                 <a href="https://github.com/Jburdt/Phase-1-project-joke-app.git">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/*end of work*/}
+          {/* Grid Item / start of new work*/}
+          <div
+            style={{ backgroundImage: `url(${Vue})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover effects */}
+            <div className="rounded-lg opacity-0 bg-indigo-500 group-hover:opacity-100 px-2">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Vue Application
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://github.com/Jburdt/nuxt-project.git">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+                <a href="https://gorgeous-frangollo-ecf5a6.netlify.app">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Live Website
                   </button>
                 </a>
               </div>
