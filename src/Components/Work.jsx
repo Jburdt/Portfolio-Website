@@ -1,9 +1,10 @@
 import golfapp from "../assets/golfapp.png";
 import MovieReview from "../assets/MovieReview.png";
 import hero from "../assets/hero.png";
-import calc from "../assets/calc.png"
-import JokeApp from "../assets/JokeApp.png"
-import Vue from "../assets/Vue.png"
+import calc from "../assets/calc.png";
+import JokeApp from "../assets/JokeApp.png";
+import Vue from "../assets/Vue.png";
+import Pass from "../assets/Pass.png";
 
 const Work = () => {
   return (
@@ -145,7 +146,7 @@ const Work = () => {
           >
             {/* Hover effects */}
             <div className="rounded-lg opacity-0 bg-indigo-500 group-hover:opacity-100 px-2">
-              <span className="text-2xl font-bold text-white tracking-wider">
+              <span className="text-2xl text-center font-bold text-white tracking-wider">
                 Vue Application
               </span>
               <div className="pt-8 text-center">
@@ -164,12 +165,39 @@ const Work = () => {
           </div>
           {/*end of work*/}
           {/* Grid Item / start of new work*/}
+          <div
+            style={{ backgroundImage: `url(${Pass})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover effects */}
+            <div className="rounded-lg opacity-0 bg-indigo-500 group-hover:opacity-100 px-2">
+              <span className=" text-2xl-center font-bold text-white tracking-wider">
+                Ruby on Rails Application
+              </span>
+              <div className="pt-8 text-center">
+                {/* <a href="https://youtu.be/zMNVJUqpWVQ">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Video
+                  </button>
+                </a> */}
+                <a href="https://github.com/Jburdt/password-manager.git">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/*end of work*/}
+
+          {/*end of work*/}
+          {/* Grid Item / start of new work*/}
           {/* <div
             style={{ backgroundImage: `url(${JokeApp})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           > */}
-            {/* Hover effects */}
-            {/* <div className="rounded-lg opacity-0 bg-indigo-500 group-hover:opacity-100 px-2">
+          {/* Hover effects */}
+          {/* <div className="rounded-lg opacity-0 bg-indigo-500 group-hover:opacity-100 px-2">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Javascript Application
               </span>
